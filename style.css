@@ -1,0 +1,179 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+@media all {
+  body {
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-brand img:hover {
+    content: url(img/200.gif);
+    border-radius: 15%;
+  }
+
+  .navbar-nav {
+    text-align: end;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 160, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler {
+    border: 1px solid #14a098;
+  }
+
+  .navbar {
+    --bs-navbar-toggler-focus-width: 0.15rem;
+  }
+
+  .navbar-toggler {
+    transition: .3s;
+  }
+
+  .navbar-toggler:focus {
+    color: #cb2d6f;
+  }
+
+  #hero-section {
+    background-image: linear-gradient(rgba(15, 41, 47, 0.5), rgba(15, 41, 47, 0.5)), url(img/bulb\ window.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* position: relative; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    margin-top: 75px;
+    padding: 0;
+    height: 75vh;
+    color: white;
+  }
+
+  #hero-section h2 {
+    color: #cb2d6f;
+  }
+
+  #hero-section img {
+    min-width: 150px;
+    max-width: 15%;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, .2);
+  }
+
+  #footer-section {
+    padding: 20px;
+    color: #cccccc;
+    background-color: #0f292f;
+  }
+}
+
+.navbar-nav #mission-link:hover {
+  color: #89CFCB !important;
+}
+
+.navbar-nav #skills-link:hover {
+  color: #E596B7 !important;
+}
+
+.navbar-nav #contact-link:hover {
+  color: #E5E5E5 !important;
+}
+
+#mission-target,
+#skills-target,
+#contact-target {
+  position: relative;
+  top: -76px;
+}
+
+/* .mission-section {
+  min-height: 50vh;
+} */
+
+/* .mission-section img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.skills-section h3 {
+  margin-bottom: 24px !important;
+}
+
+.mission-section img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 5%;
+}
+
+.mission-section p {
+  text-align: left;
+  /* margin: 10% 0; */
+}
+
+.skills-section p {
+  max-width: 250px;
+}
+
+.mission-bg {
+  color: white;
+  background-color: #14a098;
+}
+
+.skills-bg {
+  color: white;
+  background-color: #cb2d6f;
+}
+
+.skills-bg img {
+  height: 150px;
+}
+
+/* .skills-bg p {
+  margin: 0 100px;
+} */
+
+.contact-bg {
+  color: #0f292f;
+  background-color: #cccccc;
+  font-size: 50px;
+}
+
+.contact-bg .bi:hover {
+  color: #14a098;
+}
+
+#images-section {
+  background-color: #0f292f;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .3);
+}
+
+.carousel-caption {
+  z-index: 5;
+}
