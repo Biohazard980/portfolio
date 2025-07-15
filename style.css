@@ -143,7 +143,8 @@
   margin: 0 100px;
 } */
 
-.contact-bg {
+.contact-bg,
+.contact-bg a {
   color: #0f292f;
   background-color: #cccccc;
   font-size: 50px;
